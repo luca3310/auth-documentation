@@ -5,21 +5,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  ArrowLeft,
   Book,
-  ChevronDown,
   ChevronLeft,
   ChevronRight,
   Code,
-  FileText,
-  Github,
   Lock,
-  Menu,
   PlayCircle,
-  Search,
   Settings,
-  User,
-} from "lucide-react";
+  } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
